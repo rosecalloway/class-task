@@ -1,0 +1,6 @@
+a = (1,3,5,7,4)
+b = list(a)
+b.remove(4)
+print(b)
+b.remove(a[1])
+print(b)
